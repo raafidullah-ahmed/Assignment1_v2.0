@@ -63,7 +63,8 @@
   color: #414141;
   margin-bottom: 0px;
   line-height: 26px;
-  /* max-width: 30%; */
+  max-width: 700px;
+  min-width: 150px;
 }
 
 .price-1 {
@@ -409,6 +410,18 @@ img {
 @media (max-width: 1200px) {
   #hero h1 {
     font-size: 32px;
+  }
+
+  #hero .htv {
+    flex: 1;
+    max-width: 550px;
+    width: 100%;
+    height: auto;
+  }
+
+  #hero .desc {
+    flex: 1;
+    min-width: 350px
   }
 
   .cat_h2 {
